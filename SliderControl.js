@@ -104,7 +104,7 @@ L.Control.SliderControl = L.Control.extend({
                     }else {
                         // set by leaflet Vector Layers
                         if(_options.markers [ui.value].options.time){
-                            if(_options.markers[ui.value]) $('#slider-timestamp').html("year " + _options.markers[ui.value].options.time.substr(0, 19));
+                            if(_options.markers[ui.value]) $('#slider-timestamp').html("ano " + _options.markers[ui.value].options.time.substr(0, 19));
                         }else {
                             console.error("You have to have a time property");
                         }
